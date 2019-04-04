@@ -11,7 +11,27 @@ namespace Razor.Pages
     {
         public void OnGet()
         {
+              private readonly RazorPagesMovie.Models.RazorPagesMovieContext _context;
+
+        public IndexModel(RazorPagesMovie.Models.RazorPagesMovieContext context)
+        {
+            _context = context;
+        }
+
+        public IList<Movie> Movie { get; set; }
+        [BindProperty(SupportsGet = true)]
+        public string SearchString { get; set; }
+        // Requires using Microsoft.AspNetCore.Mvc.Rendering;
+        public SelectList Genres { get; set; }
+        [BindProperty(SupportsGet = true)]
+        public string MovieGenre { get; set; }*/
 
         }
-    }
 }
+}
+
+
+
+/*
+{
+  
