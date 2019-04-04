@@ -20,7 +20,7 @@ namespace Razor.Pages
         {
             _context = context;
         }
-
+         
         public IList<Movie> Movie { get; set; }
         [BindProperty(SupportsGet = true)]
         public string SearchString { get; set; }
@@ -39,10 +39,6 @@ namespace Razor.Pages
 
             Movie = await movies.ToListAsync();
         }
-
-
-
-
     }
 }
 

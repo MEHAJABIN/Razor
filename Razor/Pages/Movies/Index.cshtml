@@ -12,8 +12,16 @@
 <p>
     <a asp-page="Create">Create New</a>
 </p>
+<form>
+    <p>
+        Title: <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
 <table class="table">
     <thead>
+
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Movie[0].Title)
@@ -52,8 +60,11 @@
                     <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
                 </td>
             </tr>
+
+
+            @*Markup removed for brevity.*@
         }
     </tbody>
 </table>
- 
+
 
