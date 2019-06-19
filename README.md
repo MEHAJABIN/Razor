@@ -12,4 +12,4 @@ Reference:  https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-
 At the end of this week, we expect you to develop console application based on C# Individually.
 
 
-My Report : medium.com/@mizna.arakkal/twtw-week-9-apr-1-5-e68bcee41a42medium.com/MEHAJABIN A/twtw #week 9(Apr 1-5)
+My Report :medium.com/@mizna.arakkal/twtw-week-9-apr-1-5-e68bcee41a42
